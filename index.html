@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>To-do-list</title>
+</head>
+
+<body>
+    <header>
+        <div class="mainDiv">
+            <h1>TO-DO-LIST</h1>
+        </div>
+    </header>
+    <main>
+        <div id="to-do-list">
+            <form action="">
+                <div>
+                    <p>Créez votre tâche et ajoutez la à votre TO-DO-LIST : </p>
+                </div>
+                <div>
+                    <label for="tache"></label>
+                    <input type="text" placeholder="Nom de la tâche" id="tache">
+                </div>
+                <div>
+                    <label for="description"></label>
+                    <input type="text" placeholder="Description" id="description">
+                </div>
+                <div>
+                    <button type="button" onclick="createArticle()">Add to the list</button>
+                </div>
+            </form>
+        </div>
+        <div id="to-do-list-container" class="scroller">
+        </div>
+    </main>
+    <footer>
+        <div id="secondFooter">
+            <p>Copyrights - 2024 - Tous droits réservés.</p>
+        </div>
+        <div id="fourthFooter">
+            <p>FAQ</p>
+            <p>Contacts</p>
+            <p>Mentions légales</p>
+        </div>
+    </footer>
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
